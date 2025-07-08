@@ -9,7 +9,7 @@ const LoginSignup = () => {
 
     const[action, setAction] = useState("Sign Up");
   return (
-    <div className='continer'>
+    <div className='container'>
         <div className='header'>
             <div className='text'>{action}</div>
             <div className='underline'></div>
@@ -27,7 +27,7 @@ const LoginSignup = () => {
             </div>
              <div className='input'>
                 <img src={password_icon}alt=''></img>
-                <input type="password" placeholder='Passwordd'></input>
+                <input type="password" placeholder='Password'></input>
             </div>
         </div>
         {action==="Sign Up"?<div></div>:        <div className='forgot-password'>Lost Password? <span>click here </span></div>
